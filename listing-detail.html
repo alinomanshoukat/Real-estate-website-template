@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clifton Garden House — Estate & Co</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">Estate<span class="dot">&</span>Co</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="listings.html" class="active">Listings</a>
+      <a href="contact.html">Contact</a>
+      <a href="signin.html">Sign In</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="signin.html" class="btn btn-outline btn-sm">Log In</a>
+      <a href="signup.html" class="btn btn-brass btn-sm">Get Started</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="breadcrumb">
+  <div class="wrap"><a href="index.html">Home</a> / <a href="listings.html">Listings</a> / Clifton Garden House</div>
+</div>
+
+<section class="section-tight">
+  <div class="wrap">
+
+    <div class="gallery">
+      <img data-gallery-main src="D:\websites data\realestate\image\10.jpg" alt="Clifton Garden House — living room">
+      <div class="gallery-side">
+        <img data-gallery-thumb src="D:\websites data\realestate\image\12.jpg" alt="Bedroom">
+        <img data-gallery-thumb src="D:\websites data\realestate\image\11.jpg" alt="Garden">
+      </div>
+    </div>
+
+    <div class="detail-shell">
+      <div>
+        <div class="detail-head">
+          <div>
+            <span class="eyebrow">Listing No. 0241 · For Sale</span>
+            <h1>Clifton Garden House</h1>
+            <p style="color:var(--ink-soft); margin:0;">Block 4, Clifton, Karachi</p>
+          </div>
+          <div class="detail-price">$465,000</div>
+        </div>
+
+        <div class="spec-row">
+          <div class="spec"><b>4</b><span>Bedrooms</span></div>
+          <div class="spec"><b>3</b><span>Bathrooms</span></div>
+          <div class="spec"><b>2,400</b><span>Sqft</span></div>
+          <div class="spec"><b>2014</b><span>Year Built</span></div>
+        </div>
+
+        <h3>Overview</h3>
+        <p>A double-storey family home on a quiet street in Clifton Block 4, set back behind a private front garden. The layout keeps living and sleeping spaces clearly separated — open kitchen and lounge downstairs, four bedrooms and a family lounge upstairs. Recently repainted with updated wiring throughout.</p>
+        <p>The back garden gets afternoon shade from a mature neem tree, and there's covered parking for two cars.</p>
+
+        <h3 style="margin-top:36px;">Amenities</h3>
+        <ul class="amenity-grid">
+          <li>Private garden</li>
+          <li>Covered car parking ×2</li>
+          <li>Backup generator</li>
+          <li>Servant quarter</li>
+          <li>Central air conditioning</li>
+          <li>Security guard on street</li>
+          <li>Modular kitchen</li>
+          <li>Solar water heating</li>
+        </ul>
+
+        <h3 style="margin-top:36px;">Location</h3>
+        <div class="map-block">Map embed placeholder — Block 4, Clifton, Karachi</div>
+      </div>
+
+      <aside>
+        <div class="sidebar-card">
+          <div class="agent-mini">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=200" alt="Agent">
+            <div><b>Usman Farooq</b><span>Lead Agent, Karachi</span></div>
+          </div>
+          <a href="tel:+922112345678" class="btn btn-outline btn-block" style="margin-bottom:10px;">Call Agent</a>
+          <a href="contact.html" class="btn btn-primary btn-block">Message Agent</a>
+        </div>
+
+        <div class="sidebar-card">
+          <h4 style="font-family:var(--serif); margin-bottom:14px;">Book a Viewing</h4>
+          <form data-validate novalidate>
+            <div class="field">
+              <label for="vName">Full Name</label>
+              <input type="text" id="vName" required>
+              <span class="error-msg">Required</span>
+            </div>
+            <div class="field">
+              <label for="vDate">Preferred Date</label>
+              <input type="date" id="vDate" required>
+              <span class="error-msg">Required</span>
+            </div>
+            <div class="field" style="margin-bottom:0;">
+              <label for="vPhone">Phone</label>
+              <input type="tel" id="vPhone" required>
+              <span class="error-msg">Required</span>
+            </div>
+          </form>
+          <button class="btn btn-brass btn-block" style="margin-top:16px;" onclick="this.closest('.sidebar-card').querySelector('form').requestSubmit()">Request Viewing</button>
+          <div class="form-success" style="display:none; background:#EAF1EC; color:#2E3D34; padding:10px 14px; font-size:.82rem; margin-top:14px;">
+            Request sent — we'll confirm shortly.
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <div style="margin-top:80px;">
+      <div class="section-head">
+        <span class="eyebrow">You Might Also Like</span>
+        <h2>Similar properties</h2>
+      </div>
+      <div class="grid-3">
+        <a href="listing-detail.html" class="card">
+          <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1571055107559-3e67626fa8be?q=80&w=900');">
+            <span class="card-tag">For Sale</span>
+            <span class="card-price">$340,000</span>
+          </div>
+          <div class="card-body">
+            <h3>PECHS Family Home</h3>
+            <p class="card-loc">PECHS, Karachi</p>
+            <div class="card-meta"><span>3 Beds</span><span>2 Baths</span><span>1,900 sqft</span></div>
+          </div>
+        </a>
+        <a href="listing-detail.html" class="card">
+          <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=900');">
+            <span class="card-tag">For Sale</span>
+            <span class="card-price">$525,000</span>
+          </div>
+          <div class="card-body">
+            <h3>Bahria Enclave Villa</h3>
+            <p class="card-loc">Bahria Enclave, Islamabad</p>
+            <div class="card-meta"><span>4 Beds</span><span>3 Baths</span><span>2,700 sqft</span></div>
+          </div>
+        </a>
+        <a href="listing-detail.html" class="card">
+          <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=900');">
+            <span class="card-tag">For Rent</span>
+            <span class="card-price">$2,100/mo</span>
+          </div>
+          <div class="card-body">
+            <h3>DHA Phase 8 Bungalow</h3>
+            <p class="card-loc">DHA Phase 8, Lahore</p>
+            <div class="card-meta"><span>4 Beds</span><span>3 Baths</span><span>3,000 sqft</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">Estate<span class="dot">&</span>Co</a>
+        <p style="margin-top:16px; max-width:32ch;">A boutique real estate agency operating across Karachi, Lahore and Islamabad since 2010.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="listings.html">Listings</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Account</h4>
+        <ul>
+          <li><a href="signin.html">Sign In</a></li>
+          <li><a href="signup.html">Create Account</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <p>Get new listings before they hit the market.</p>
+        <form style="display:flex; gap:8px;" onsubmit="return false;">
+          <input type="email" placeholder="Email address" style="flex:1; padding:11px; border:1px solid rgba(250,248,244,.2); background:transparent; color:#fff;">
+          <button class="btn btn-brass btn-sm" type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Estate & Co. All rights reserved.</span>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="X">x</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
